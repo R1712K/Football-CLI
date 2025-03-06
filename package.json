@@ -1,0 +1,37 @@
+{
+  "name": "@r1712k/football-cli",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "A football cli",
+  "bin": "./main.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R1712K/Football-CLI.git"
+  },
+  "keywords": [
+    "Football",
+    "CLI",
+    "Football-CLI"
+  ],
+  "author": "R1712K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R1712K/Football-CLI/issues"
+  },
+  "homepage": "https://github.com/R1712K/Football-CLI#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "child_process": "^1.0.2",
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.4.2",
+    "ora": "^8.2.0",
+    "path": "^0.12.7",
+    "puppeteer": "^24.2.1",
+    "random-useragent": "^0.5.0"
+  }
+}
